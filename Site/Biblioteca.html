@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERF - Biblioteca</title>
+    <link rel="shortcut icon" href="./imagens/books.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/Reset.css">
+    <link rel="stylesheet" href="../Css/Biblioteca.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__logo">
+            <img src="../Imagens/images (1).jfif" alt="Logo do Colégio Regente" class="logo__imagem">
+            <h1 class="logo__titulo">Colégio Estadual Regente Feijó</h1>
+        </div>
+        <span class="cabecalho__menu" id="icone__menu"></span>
+    </header>
+
+    <nav class="menu">
+        <div class="menu__conta">
+            <img src="../Imagens/download.png" alt="Avatar do usuário." class="conta__avatar">
+            <h2 class="conta__nome">José</h2>
+        </div>
+        <ul class="menu__lista">
+            <li class="menu__item"><a href="https://www.areadoaluno.seed.pr.gov.br/servicosaoaluno/pages/publico/login.jsf" class="menu__link"><span class="link__icone icone__aluno"></span>Área do Aluno</a></li>
+            <li class="menu__item"><a href="https://www.educacao.pr.gov.br/desvio.html" class="menu__link"><span class="link__icone icone__secretaria"></span>Secretaria</a></li>
+            <li class="menu__item"><a href="https://www.colegioregentefeijo.com.br/" class="menu__link link__ativo"><span class="link__icone icone__Colégio"></span>Colégio</a></li>
+            <li class="menu__item"><a href="https://www.colegioregentefeijo.com.br/p/nossos-cursos.html" class="menu__link"><span class="link__icone icone__cursos"></span>Cursos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="conteudo">
+            <h2 class="conteudo__titulo">Biblioteca do Colégio Regente</h2>
+            <p class="conteudo__texto">Aqui você encontra todo acervo de livros do colégio, podendo reservar e emprestar livros por aqui.</p>
+            <p class="conteudo__texto">Temos livros para todos os gostos:</p>
+            <ul class="conteudo__lista">
+                <li class="conteudo__item">Livros técnicos de Administração, Tecnologia, Marketing, Agronegócio e Mecânica.</li>
+                <li class="conteudo__item">Clássicos da literatura brasileira.</li>
+                <li class="conteudo__item">Livros didáticos das disciplinas da BNCC.</li>
+                <li class="conteudo__item">Histórias em quadrinhos.</li>
+                <li class="conteudo__item">Literatura infanto-juvenil.</li>
+                <li class="conteudo__item">Biografias para se inspirar.</li>
+                <li class="conteudo__item">E muito mais...</li>
+            </ul>
+            <a href="" class="conteudo__botao">Pesquisar no acervo</a>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Você pode se interessar por ...</h2>
+            <div class="carrossel__container">
+                <img src="../Imagens/Copia_de_00035-4_318x451.png" alt="Cursos" class="carrossel__imagem">
+                <div class="carrossel__botoes" id="botao-esquerdo">&LeftAngleBracket;</div>
+                <div class="carrossel__botoes" id="botao-direito">&RightAngleBracket;</div>
+                <div class="paginacao"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img src="../Imagens/download.jfif" alt="Imagem ilustrativa de livros" class="rodape__imagem">
+        <p class="rodape__texto">Site criado para fins educacionais. Todos os direitos reservados © 2025</p>
+    </footer>
+
+    <script src="../Javascript/Biblioteca.js"></script>
+</body>
+</html>
